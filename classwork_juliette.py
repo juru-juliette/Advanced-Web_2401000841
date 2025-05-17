@@ -16,11 +16,12 @@ name_list.append("University")
 name_list.append("Kangabe")
 
 print(name_list)
+=================================
 
-Fprices = {"Apple": 1000, "Banana": 500, "Mango": 1200}
+F_lists = {"Apple": 1000, "Banana": 500, "Mango": 1200}
 
 total_cost = 0
-for fruit, price in Fprices.items():
+for fruit, price in F_lists.items():
     print(f"{fruit}: {price} RWF per kg")
     total_cost += price * 2
 
